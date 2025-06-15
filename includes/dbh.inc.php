@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost:3307";
-$dbUsername = "root";
-$dbPassword = ""; // default is empty for XAMPP
-$dbName = "umpsa_ridehub";
+$servername = "sql203.infinityfree.com"; // Hostname from your panel
+$dbUsername = "if0_39234805";            // MySQL Username
+$dbPassword = "your_vpanel_password";    // Use the password you use to log into InfinityFree
+$dbName = "if0_39234805_umpsa_ridehub";  // Full DB name
 
 $conn = mysqli_connect($servername, $dbUsername, $dbPassword, $dbName);
 
